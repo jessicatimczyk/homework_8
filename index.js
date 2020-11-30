@@ -1,6 +1,4 @@
-//import anime from 'animejs/lib/anime.es.js';
-import anime from 'anime-master/lib/anime.es.js';
-const anime = require('animejs');
+import anime from 'anime.es.js';
 
 anime({
     targets: 'div',
@@ -9,3 +7,11 @@ anime({
     backgroundColor: '#FFF',
     duration: 800
 });
+
+//anime({
+//    targets: 'div',
+//    left: '240px',
+//    backgroundColor: '#FFF',
+//    borderRadius: ['0%', '50%'],
+//    easing: 'easeInOutQuad'
+//});

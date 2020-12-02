@@ -1,5 +1,8 @@
+/********** HOMEPAGE **********/
+
 header {
     position: absolute;
+
     text-align: left;
     left: 30px;
     top: 50px;
@@ -15,7 +18,29 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.homepage body
+.hexagon {
+    position: relative;
+    width: 54px;
+    border-width
+}
+
+.button {
+    background-color: gold;
+    border-color: brown;
+    border-width: thick;
+    text-align: center;
+    padding: 7px 7px;
+    width: 125px;
+    border-radius: 30px;
+}
+
+#home_page {
+    bottom: 50px;
+}
+
+
+
+
 
 /********** HEADER **********/
 header {

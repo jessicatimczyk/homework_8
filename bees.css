@@ -1,0 +1,21 @@
+body {
+    background-image: url(dmitry-grigoriev-yxXpjF-RrnA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    background-color: gold;
+    border-color: brown;
+    border-width: thick;
+    text-align: center;
+    padding: 7px 7px;
+    width: 125px;
+    border-radius: 30px;
+}
+
+#home_page {
+    bottom: 50px;
+}

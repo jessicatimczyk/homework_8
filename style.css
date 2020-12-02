@@ -34,6 +34,11 @@ body {
     border-radius: 30px;
 }
 
+.button:hover {
+    animation: tada;
+    animation-duration: 1s;
+}
+
 #home_page {
     bottom: 50px;
 }

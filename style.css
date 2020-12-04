@@ -18,11 +18,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.hexagon {
-    position: relative;
-    width: 54px;
-    border-width
-}
 
 .button {
     background-color: gold;
@@ -40,7 +35,8 @@ body {
 }
 
 #home_page {
-    bottom: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
 }
 
 

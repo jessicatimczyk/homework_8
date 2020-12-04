@@ -1,5 +1,5 @@
 body {
-    background-image: url(dmitry-grigoriev-yxXpjF-RrnA-unsplash.jpg);
+    background-image: url(honey%20comb%20wall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -12,10 +12,15 @@ body {
     border-width: thick;
     text-align: center;
     padding: 7px 7px;
-    width: 125px;
+    width: 100px;
     border-radius: 30px;
 }
 
-#home_page {
+#home_button {
     bottom: 50px;
+}
+
+#title_combs {
+    margin-top: 25px;
+    margin-left: 25px;
 }

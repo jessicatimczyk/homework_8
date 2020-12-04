@@ -17,10 +17,17 @@ body {
 }
 
 #home_button {
-    bottom: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 #title_combs {
     margin-top: 25px;
     margin-left: 25px;
+}
+
+#title_combs_text {
+    position: absolute;
+    top: 25px;
+    left: 50px;
 }

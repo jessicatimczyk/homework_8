@@ -42,10 +42,12 @@ body {
 
 #bee_comb:hover {
     animation: flash;
+    animation-duration: 1s;
 }
 
 .bee_comb:hover {
     animation: flash;
+    animation-duration: 1s;
 }
 
 #bee_comb img {
@@ -59,4 +61,32 @@ body {
     max-height: 70px;
     min-height: 40px;
 */
+}
+
+.bee_button {
+    background-color: gold;
+    border-color: brown;
+    border-width: thick;
+    text-align: center;
+    padding: 7px 7px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.bee_button:hover {
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+#bee_reveal {
+    top: 220px;
+    left: 485px;
+}
+
+.modal-content {
+    background: lightgoldenrodyellow !important;
+    color: saddlebrown;
+    border-color: brown !important;
+    border-width: thick !important;
 }

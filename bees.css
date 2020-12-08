@@ -1,5 +1,5 @@
 body {
-    background-image: url(honey%20comb%20wall.jpg);
+    background-image: url(honey-comb-wall-2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -64,14 +64,14 @@ body {
 }
 
 .bee_button {
-    background-color: gold;
+    background-color: transparent;
     border-color: brown;
     border-width: thick;
     text-align: center;
     padding: 7px 7px;
-    width: 40px;
-    height: 40px;
-    border-radius: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
 }
 
 .bee_button:hover {
@@ -80,15 +80,15 @@ body {
 }
 
 #bee_reveal {
-    top: 220px;
-    left: 485px;
+    top: 193px;
+    left: 300px;
 }
 
 .modal {
-    position: fixed !important;
+    /*    position: absolute !important;*/
+    margin-right: 50px !important;
     overflow: auto !important;
-    left: 0 !important;
-    top: 0 !important;
+    right: 50px !important;
 }
 
 .modal-backdrop {

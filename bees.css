@@ -1,5 +1,5 @@
 body {
-    background-image: url(honey-comb-wall-2.png);
+    background-image: url(honey%20comb%20wall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -31,59 +31,104 @@ body {
 #title_combs_text {
     position: absolute;
     top: 25px;
-    left: 50px;
-}
-
-#bee_comb {
-    position: fixed;
-    left: 462px;
-    top: 210px;
-}
-
-#bee_comb:hover {
-    animation: flash;
-    animation-duration: 1s;
-}
-
-.bee_comb:hover {
-    animation: flash;
-    animation-duration: 1s;
-}
-
-#bee_comb img {
-    /*
-    height: auto;
-    width: auto;
-*/
-    /*
-    max-width: 70px;
-    min-width: 40px;
-    max-height: 70px;
-    min-height: 40px;
-*/
+    left: 37px;
 }
 
 .bee_button {
     background-color: transparent;
-    border-color: brown;
-    border-width: thick;
+    /*    background-image: url(icons/bee-1.png);*/
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-width: 0px;
     text-align: center;
     padding: 7px 7px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 100px;
 }
 
 .bee_button:hover {
-    animation: fadeIn;
+    animation: wobble;
     animation-duration: 1s;
 }
 
-#bee_reveal {
-    top: 193px;
+/********** BEE BUTTON BEE IMAGES **********/
+
+#bee1 {
+    background-image: url(icons/bee-2.png);
+}
+
+#bee_reveal1 {
+    top: 400px;
     left: 300px;
 }
 
+#bee2 {
+    background-image: url(icons/bee-1.png);
+}
+
+#bee_reveal2 {
+    top: 300px;
+    left: 10px;
+}
+
+#bee3 {
+    background-image: url(icons/bee-3.png);
+}
+
+#bee_reveal3 {
+    top: 500px;
+    left: 200px;
+}
+
+#bee4 {
+    background-image: url(icons/bee-4.png);
+}
+
+#bee_reveal4 {
+    top: 550px;
+    left: -150px;
+}
+
+#bee5 {
+    background-image: url(icons/bee-5.png);
+}
+
+#bee_reveal5 {
+    top: 200px;
+    left: -100px;
+}
+
+#bee6 {
+    background-image: url(icons/bee-6.png);
+}
+
+#bee_reveal6 {
+    top: 150px;
+    left: -500px;
+}
+
+#bee7 {
+    background-image: url(icons/bee-7.png);
+}
+
+#bee_reveal7 {
+    top: 400px;
+    left: -600px;
+}
+
+#bee8 {
+    background-image: url(icons/bee-8.png);
+}
+
+#bee_reveal8 {
+    top: 300px;
+    left: -200px;
+}
+
+
+/********** MODAL STYLES **********/
 .modal {
     /*    position: absolute !important;*/
     margin-right: 50px !important;

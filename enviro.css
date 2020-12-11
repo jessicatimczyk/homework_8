@@ -1,0 +1,60 @@
+/********** HOMEPAGE **********/
+
+header {
+    position: absolute;
+
+    text-align: left;
+    left: 30px;
+    top: 50px;
+    font-size: 30px;
+}
+
+
+body {
+    background-image: url(bee_pictures/enviro-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.button {
+    background-color: gold;
+    border-color: brown;
+    border-width: thick;
+    text-align: center;
+    padding: 7px 7px;
+    width: 125px;
+    border-radius: 30px;
+}
+
+.button:hover {
+    animation: tada;
+    animation-duration: 1s;
+}
+
+#home_page {
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+
+
+/********** HEADER **********/
+header {
+    text-align: left;
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin: 0px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+}

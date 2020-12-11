@@ -1,5 +1,5 @@
 body {
-    background-image: url(honey%20comb%20wall.jpg);
+    background-image: url(honey-comb-wall-cutout.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -34,6 +34,8 @@ body {
     left: 37px;
 }
 
+/********** BEES AS BUTTONS **********/
+
 .bee_button {
     background-color: transparent;
     /*    background-image: url(icons/bee-1.png);*/
@@ -46,6 +48,12 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 100px;
+
+    animation-delay: 7s;
+    animation: fadeIn;
+    animation-duration: 3s;
+
+
 }
 
 .bee_button:hover {
@@ -60,8 +68,9 @@ body {
 }
 
 #bee_reveal1 {
-    top: 400px;
+    top: 150px;
     left: 300px;
+
 }
 
 #bee2 {
@@ -69,8 +78,8 @@ body {
 }
 
 #bee_reveal2 {
-    top: 300px;
-    left: 10px;
+    top: 150px;
+    left: 100px;
 }
 
 #bee3 {
@@ -78,8 +87,8 @@ body {
 }
 
 #bee_reveal3 {
-    top: 500px;
-    left: 200px;
+    top: 200px;
+    left: 250px;
 }
 
 #bee4 {
@@ -87,8 +96,8 @@ body {
 }
 
 #bee_reveal4 {
-    top: 550px;
-    left: -150px;
+    top: 300px;
+    left: 400px;
 }
 
 #bee5 {
@@ -96,8 +105,8 @@ body {
 }
 
 #bee_reveal5 {
-    top: 200px;
-    left: -100px;
+    top: 125px;
+    left: 100px;
 }
 
 #bee6 {
@@ -105,8 +114,8 @@ body {
 }
 
 #bee_reveal6 {
-    top: 150px;
-    left: -500px;
+    top: -400px;
+    left: 0px;
 }
 
 #bee7 {
@@ -114,8 +123,8 @@ body {
 }
 
 #bee_reveal7 {
-    top: 400px;
-    left: -600px;
+    top: -300px;
+    left: 400px;
 }
 
 #bee8 {
@@ -123,8 +132,8 @@ body {
 }
 
 #bee_reveal8 {
-    top: 300px;
-    left: -200px;
+    top: -300px;
+    left: -50px;
 }
 
 
@@ -152,4 +161,10 @@ body {
     border-radius: 20px;
     padding-top: 10px;
     margin-bottom: 40px !important;
+}
+
+/********** EXPLORE BUTTON **********/
+#explore_enviro {
+    bottom: 300px;
+    /*    top: -400px;*/
 }

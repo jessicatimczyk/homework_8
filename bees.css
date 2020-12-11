@@ -140,7 +140,7 @@ body {
 /********** MODAL STYLES **********/
 .modal {
     /*    position: absolute !important;*/
-    margin-right: 50px !important;
+    margin-left: 300px !important;
     overflow: auto !important;
     right: 50px !important;
 }

@@ -16,31 +16,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="anime.min.js"></script>
     <script src="p5/p5.js"></script>
-    <script src="index.js"></script>
+    <script src="enviro.js"></script>
 </head>
 
 
 
-<body onload="onload()">
+<body>
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="animate__animated animate__bounce">Bees are Integral to Our Environment</h1>
-                    <h5>Learn more about the different kind of bees, and how they play a vital role in our ecosystem.</h5>
+
+
+    </header>
+
+    <!--     BEE CURSER       -->
+    <div class="mouse_bee">
+        <img id="curser_bee" src="icons/bee-8.png">
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6 fixed-top" id="title_combs">
+                <img src="title%20combs.png" width="550" height="75">
+                <h5 id="title_combs_text">Click on a bee to learn more about different types of bees</h5>
+            </div>
+            <div class="col-lg-12">
+                <div class="d-flex fixed-bottom" id="home_button">
+                    <button class="button" type="button" onclick="window.location.href='index.html';">Home</button>
                 </div>
             </div>
         </div>
 
 
-    </header>
-
-    <div class="container">
         <div class="row">
 
             <div class="col-lg-12">
                 <div class="d-flex flex-row-reverse fixed-bottom" id="home_page">
-                    <button class="button" type="button" onclick="window.location.href='bees.html';">Start Learning!</button>
+                    <button class="button" type="button" onclick="window.location.href='bees.html';">Back to the Bees</button>
                 </div>
             </div>
         </div>

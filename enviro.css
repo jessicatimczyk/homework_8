@@ -92,7 +92,7 @@ header a {
 
 /********** SUNFLOWERS **********/
 #sunflower1 {
-    margin-top: 250px;
+    margin-top: 130px;
 }
 
 .sunflower1:hover {
@@ -102,7 +102,7 @@ header a {
 }
 
 #sunflower2 {
-    margin-top: 275px;
+    margin-top: 155px;
 }
 
 .sunflower2:hover {
@@ -112,7 +112,7 @@ header a {
 }
 
 #sunflower3 {
-    margin-top: 255px;
+    margin-top: 135px;
 }
 
 .sunflower3:hover {
@@ -122,7 +122,7 @@ header a {
 }
 
 #sunflower4 {
-    margin-top: 250px;
+    margin-top: 130px;
 }
 
 .sunflower4:hover {
@@ -133,7 +133,7 @@ header a {
 
 
 #sunflower5 {
-    margin-top: 275px;
+    margin-top: 155px;
 }
 
 .sunflower5:hover {
@@ -144,7 +144,7 @@ header a {
 }
 
 #sunflower6 {
-    margin-top: 255px;
+    margin-top: 135px;
 
 }
 
@@ -175,20 +175,15 @@ header a {
 
 }
 
-/*
-.sunflower_button:hover {
-    animation: flip;
-    animation-duration: 2s;
-    background-image: url(icons/fruits.png);
+
+/********** CAROUSEL STYLES **********/
+
+#myCarousel {
+    width: 450px;
+
 }
-*/
 
-
-/********** BEE BUTTON BEE IMAGES **********/
-
-
-
-/*
-#bee_reveal1 {
-    top: 150px;
-    left: 300px;*/
+#carousel_img {
+    width: 95%;
+    padding-left: 40px;
+}

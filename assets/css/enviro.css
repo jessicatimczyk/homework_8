@@ -9,7 +9,7 @@ header {
 }
 
 body {
-    background-image: url(/assets/images/bee_pictures/eviro-landscape.jpg);
+    background-image: url(../images/bee_pictures/eviro-landscape.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -96,7 +96,7 @@ header a {
 .sunflower1:hover {
     animation: flip;
     animation-duration: 2s;
-    background-image: url(/assets/images/icons/fruits2.png);
+    background-image: url(../images/icons/fruits2.png);
 }
 
 #sunflower2 {
@@ -106,7 +106,7 @@ header a {
 .sunflower2:hover {
     animation: flip;
     animation-duration: 2s;
-    background-image: url(/assets/images/icons/fruits.png);
+    background-image: url(../images/icons/fruits.png);
 }
 
 #sunflower3 {
@@ -116,7 +116,7 @@ header a {
 .sunflower3:hover {
     animation: flip;
     animation-duration: 2s;
-    background-image: url(/assets/images/icons/healthy-food.png);
+    background-image: url(../images/icons/healthy-food.png);
 }
 
 #sunflower4 {
@@ -126,7 +126,7 @@ header a {
 .sunflower4:hover {
     animation: flip;
     animation-duration: 2s;
-    background-image: url(/assets/images/icons/grapes.png);
+    background-image: url(../images/icons/grapes.png);
 }
 
 
@@ -137,7 +137,7 @@ header a {
 .sunflower5:hover {
     animation: flip;
     animation-duration: 2s;
-    background-image: url(/assets/images/icons/bananas.png);
+    background-image: url(../images/icons/bananas.png);
 }
 
 #sunflower6 {
@@ -147,7 +147,7 @@ header a {
 .sunflower6:hover {
     animation: flip;
     animation-duration: 2s;
-    background-image: url(/assets/images/icons/watermelon.png);
+    background-image: url(../images/icons/watermelon.png);
 }
 
 
@@ -155,7 +155,7 @@ header a {
 
 .sunflower_button {
     background-color: transparent;
-    background-image: url(/assets/images/icons/sunflower.png);
+    background-image: url(../images/icons/sunflower.png);
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;

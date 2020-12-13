@@ -8,6 +8,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/********** BUTTONS **********/
+
 .button {
     background-color: gold;
     border-color: brown;
@@ -27,6 +29,8 @@ body {
     margin-bottom: 20px;
     margin-left: 10px;
 }
+
+/********** TITLE **********/
 
 #title_combs {
     margin-top: 25px;
@@ -55,15 +59,16 @@ body {
 
 }
 
-.bee_button:hover {
-    animation: wobble;
-    animation-duration: 1s;
-}
 
-/********** BEE BUTTON BEE IMAGES **********/
+/********** BEE BUTTON STYLES AND IMAGES **********/
 
 #bee1 {
     background-image: url(icons/bee-2.png);
+}
+
+#bee1:hover {
+    animation: wobble;
+    animation-duration: 1s;
 }
 
 #bee_reveal1 {
@@ -76,6 +81,11 @@ body {
     background-image: url(icons/bee-1.png);
 }
 
+#bee2:hover {
+    animation: shakeX;
+    animation-duration: 1s;
+}
+
 #bee_reveal2 {
     top: 150px;
     left: 100px;
@@ -83,6 +93,11 @@ body {
 
 #bee3 {
     background-image: url(icons/bee-3.png);
+}
+
+#bee3:hover {
+    animation: swing;
+    animation-duration: 1s;
 }
 
 #bee_reveal3 {
@@ -94,6 +109,11 @@ body {
     background-image: url(icons/bee-4.png);
 }
 
+#bee4:hover {
+    animation: jello;
+    animation-duration: 1s;
+}
+
 #bee_reveal4 {
     top: 250px;
     left: 400px;
@@ -101,6 +121,11 @@ body {
 
 #bee5 {
     background-image: url(icons/bee-5.png);
+}
+
+#bee5:hover {
+    animation: rubberBand;
+    animation-duration: 1s;
 }
 
 #bee_reveal5 {
@@ -112,6 +137,11 @@ body {
     background-image: url(icons/bee-6.png);
 }
 
+#bee6:hover {
+    animation: bounce;
+    animation-duration: 1s;
+}
+
 #bee_reveal6 {
     top: -400px;
     left: 0px;
@@ -121,6 +151,11 @@ body {
     background-image: url(icons/bee-7.png);
 }
 
+#bee7:hover {
+    animation: heartBeat;
+    animation-duration: 1s;
+}
+
 #bee_reveal7 {
     top: -300px;
     left: 400px;
@@ -128,6 +163,11 @@ body {
 
 #bee8 {
     background-image: url(icons/bee-8.png);
+}
+
+#bee8:hover {
+    animation: tada;
+    animation-duration: 1s;
 }
 
 #bee_reveal8 {

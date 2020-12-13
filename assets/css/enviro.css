@@ -1,0 +1,181 @@
+/********** BACKGROUND AND BASIC STYLES **********/
+
+header {
+    position: absolute;
+    text-align: left;
+    left: 30px;
+    top: 50px;
+    font-size: 30px;
+}
+
+body {
+    background-image: url(/assets/images/bee_pictures/eviro-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/********** BUTTON STYLES **********/
+.button {
+    background-color: gold;
+    border-color: brown;
+    border-width: thick;
+    text-align: center;
+    padding: 7px 7px;
+    width: 125px;
+    border-radius: 30px;
+}
+
+.button:hover {
+    animation: tada;
+    animation-duration: 1s;
+}
+
+
+#back_button {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+/********** HEADER **********/
+header {
+    text-align: left;
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin: 0px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+/********** CURSER BEE **********/
+
+#curser_bee {
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    transform: translate(-50%, -50%);
+    animation: headShake;
+}
+
+.mouse_bee {
+    animation: shakeX;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+/********** TITLE COMBS **********/
+
+#title_combs {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#title_combs_text {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+/********** SUNFLOWERS **********/
+#sunflower1 {
+    margin-top: 130px;
+}
+
+.sunflower1:hover {
+    animation: flip;
+    animation-duration: 2s;
+    background-image: url(/assets/images/icons/fruits2.png);
+}
+
+#sunflower2 {
+    margin-top: 155px;
+}
+
+.sunflower2:hover {
+    animation: flip;
+    animation-duration: 2s;
+    background-image: url(/assets/images/icons/fruits.png);
+}
+
+#sunflower3 {
+    margin-top: 135px;
+}
+
+.sunflower3:hover {
+    animation: flip;
+    animation-duration: 2s;
+    background-image: url(/assets/images/icons/healthy-food.png);
+}
+
+#sunflower4 {
+    margin-top: 130px;
+}
+
+.sunflower4:hover {
+    animation: flip;
+    animation-duration: 2s;
+    background-image: url(/assets/images/icons/grapes.png);
+}
+
+
+#sunflower5 {
+    margin-top: 155px;
+}
+
+.sunflower5:hover {
+    animation: flip;
+    animation-duration: 2s;
+    background-image: url(/assets/images/icons/bananas.png);
+}
+
+#sunflower6 {
+    margin-top: 135px;
+}
+
+.sunflower6:hover {
+    animation: flip;
+    animation-duration: 2s;
+    background-image: url(/assets/images/icons/watermelon.png);
+}
+
+
+/********** FLOWER BUTTONS **********/
+
+.sunflower_button {
+    background-color: transparent;
+    background-image: url(/assets/images/icons/sunflower.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-width: 0px;
+    text-align: center;
+    padding: 7px 7px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+/********** CAROUSEL STYLES **********/
+
+#myCarousel {
+    width: 450px;
+
+}
+
+#carousel_img {
+    width: 95%;
+    padding-left: 40px;
+}

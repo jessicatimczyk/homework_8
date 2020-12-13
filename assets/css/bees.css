@@ -1,0 +1,216 @@
+body {
+    background-image: url(/assets/images/honey-comb-wall-cutout.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/********** BUTTONS **********/
+
+.button {
+    background-color: gold;
+    border-color: brown;
+    border-width: thick;
+    text-align: center;
+    padding: 7px 7px;
+    width: 100px;
+    border-radius: 30px;
+}
+
+.button:hover {
+    animation: tada;
+    animation-duration: 1s;
+}
+
+#home_button {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+/********** TITLE **********/
+
+#title_combs {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#title_combs_text {
+    position: absolute;
+    top: 25px;
+    left: 37px;
+}
+
+/********** BEES AS BUTTONS **********/
+
+.bee_button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-width: 0px;
+    text-align: center;
+    padding: 7px 7px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+
+}
+
+
+/********** BEE BUTTON STYLES AND IMAGES **********/
+
+#bee1 {
+    background-image: url(/assets/images/icons/bee-2.png);
+}
+
+#bee1:hover {
+    animation: wobble;
+    animation-duration: 1s;
+}
+
+#bee_reveal1 {
+    top: 150px;
+    left: 300px;
+
+}
+
+#bee2 {
+    background-image: url(/assets/images/icons/bee-1.png);
+}
+
+#bee2:hover {
+    animation: shakeX;
+    animation-duration: 1s;
+}
+
+#bee_reveal2 {
+    top: 150px;
+    left: 100px;
+}
+
+#bee3 {
+    background-image: url(/assets/images/icons/bee-3.png);
+}
+
+#bee3:hover {
+    animation: swing;
+    animation-duration: 1s;
+}
+
+#bee_reveal3 {
+    top: 200px;
+    left: 250px;
+}
+
+#bee4 {
+    background-image: url(/assets/images/icons/bee-4.png);
+}
+
+#bee4:hover {
+    animation: jello;
+    animation-duration: 1s;
+}
+
+#bee_reveal4 {
+    top: 250px;
+    left: 400px;
+}
+
+#bee5 {
+    background-image: url(/assets/images/icons/bee-5.png);
+}
+
+#bee5:hover {
+    animation: rubberBand;
+    animation-duration: 1s;
+}
+
+#bee_reveal5 {
+    top: 125px;
+    left: 100px;
+}
+
+#bee6 {
+    background-image: url(/assets/images/icons/bee-6.png);
+}
+
+#bee6:hover {
+    animation: bounce;
+    animation-duration: 1s;
+}
+
+#bee_reveal6 {
+    top: -400px;
+    left: 0px;
+}
+
+#bee7 {
+    background-image: url(/assets/images/icons/bee-7.png);
+}
+
+#bee7:hover {
+    animation: heartBeat;
+    animation-duration: 1s;
+}
+
+#bee_reveal7 {
+    top: -300px;
+    left: 400px;
+}
+
+#bee8 {
+    background-image: url(/assets/images/icons/bee-8.png);
+}
+
+#bee8:hover {
+    animation: tada;
+    animation-duration: 1s;
+}
+
+#bee_reveal8 {
+    top: -300px;
+    left: -50px;
+}
+
+
+/********** MODAL STYLES **********/
+.modal {
+    margin-left: 300px !important;
+    overflow: auto !important;
+    right: 50px !important;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, .0001) !important;
+}
+
+
+.modal-content {
+    background: lightgoldenrodyellow !important;
+    color: saddlebrown;
+    border-color: brown !important;
+    border-width: thick !important;
+}
+
+.bee_pic {
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-bottom: 40px !important;
+}
+
+/********** EXPLORE BUTTON **********/
+#explore_enviro {
+    bottom: 580px;
+}
+
+#explore_enviro h5 {
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+#enviro_button {
+    margin-right: 100px;
+}
